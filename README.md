@@ -6,7 +6,7 @@ let array: Array      = [1, 2, 3, 4]
 let list:  LinkedList = [1, 2, 3, 4]
 ```
 
-Just like with an `Array`, you modifying a copy does NOT modify the original.
+Just like with an `Array`, modifying a copy does NOT modify the original.
 ```swift
 var arrayCopy = array
 var listCopy  = list
