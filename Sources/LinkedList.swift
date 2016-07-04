@@ -66,13 +66,7 @@ extension LinkedList: SequenceType {
 
 extension LinkedList: CustomStringConvertible {
     public var description: String {
-        var str = "["
-        for (i, x) in enumerate() {
-            str += "\(x)"
-            if i != self.endIndex { str += ", " }
-        }
-        str += "]"
-        return str
+        return "[\(map({"\($0)"}).joinWithSeparator(", "))]"
     }
 }
 
